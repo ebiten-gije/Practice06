@@ -5,6 +5,8 @@ public class Triangle extends Shape{
 	private int width;
 	private int height;
 	
+	//	생성자 선언하지 않으면 기본 생성자 추가
+	//	임의로 생성자를 선언하면 기본 생성자 자동 추가 없ㄱ음;;
 	public Triangle(int width, int height) {
 		this.width = width;
 		this.height = height;

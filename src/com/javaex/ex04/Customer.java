@@ -18,7 +18,7 @@ public class Customer extends User {
 	
 	@Override
 	public void showInfo() {
-		System.out.printf("#아이디: %s, #패스워드: %s, #이름: %s, #포인트: %d%n", id, password, name, point);
+		System.out.printf("#아이디: %s, #패스워드: %s, #이름: %s, #포인트: %d%n", super.getId(), super.getPassword(), super.getName(), point);
 	}
 
 }

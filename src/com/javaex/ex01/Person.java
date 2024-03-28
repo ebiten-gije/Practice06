@@ -2,15 +2,16 @@ package com.javaex.ex01;
 
 public class Person {
 	
-	protected String name;
-	protected String hp;
+	private String name;
+	private String hp;
 	
 	public Person() {
-		
+		System.out.println("생성자 Person(0) 호출");
 	}
 	public Person(String name, String hp) {
 		this.name = name;
 		this.hp = hp;
+		System.out.println("생성자 Person(2) 호출");
 	}
 	
 	public String getName() {
