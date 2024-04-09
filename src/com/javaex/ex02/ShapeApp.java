@@ -1,7 +1,9 @@
+
 package com.javaex.ex02;
 
 public class ShapeApp {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Shape s1 = new Shape("파랑", "파랑");

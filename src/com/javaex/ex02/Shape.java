@@ -2,7 +2,9 @@ package com.javaex.ex02;
 
 public class Shape {
 	
+	@SuppressWarnings("unused")
 	private String fillColor;
+	@SuppressWarnings("unused")
 	private String lineColor;
 	
 	public Shape() {

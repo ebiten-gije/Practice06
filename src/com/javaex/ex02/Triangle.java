@@ -1,8 +1,9 @@
 package com.javaex.ex02;
 
 public class Triangle extends Shape{
-	
+	@SuppressWarnings("unused" )
 	private int width;
+	@SuppressWarnings("unused")
 	private int height;
 	
 	public Triangle() {
